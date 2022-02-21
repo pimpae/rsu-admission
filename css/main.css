@@ -392,6 +392,66 @@ header nav .navbar-brand img{
   color: rgba(0, 0, 0, 1);
 }
 
+
+.box-step2{
+  display: flex;
+  justify-content:space-between; 
+}
+
+.box-step2 .step{
+  cursor: pointer;
+  padding: 20px 10px;
+  background-color: #F4F6F9;
+  display: flex;
+  justify-content:space-between; 
+  z-index: 2;
+  position: relative;
+  cursor: not-allowed;
+}
+/* .box-step2 .step:hover{
+  background-color: #F5F5F5;
+} */
+.box-step2 .step .number{
+  height: 45px;
+  width: 45px;
+  padding-top: 1px;
+  border-radius: 100%;
+  text-align: center;
+  align-items: center; 
+  background-color: rgba(0, 0, 0, .25);
+  margin-right: 10px;
+  color: #fff;
+  padding-top: 6px;
+  font-size: 24px;
+} 
+.box-step2 .step.active .number{ 
+  background-color: #39bbd7; 
+  color: #000;
+} 
+.box-step2::after{
+  position: absolute;
+  z-index: 1;
+  margin-top: 41px;
+  content: "";
+  height: 1px;
+  background-color: #000;
+  width: 90%;
+} 
+.box-step2 .step span{ 
+  color: #757575; 
+  font-size: 20px;
+  padding-top: 7px;
+}  
+.box-step2 .step.active span{ 
+  color: #000; 
+  font-weight: bold;
+}  
+.box-step2 .step.active i{ 
+  color: #fff;  
+} 
+.table-responsive .table .text-primary{
+  line-height: 24px;
+}
 @media only screen and (max-width: 991px) { /* MOBILE */ 
   header nav .navbar-brand{
     font-size: 16px;
@@ -401,3 +461,4 @@ header nav .navbar-brand img{
     max-width: 40px;
   }
 }
+
