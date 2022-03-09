@@ -138,6 +138,37 @@
                         <div class="clearfix">&nbsp;</div>
 
                         <div class="col-12">
+                            <hr>
+                        </div>
+
+
+                        <div class="col-12">
+                            <h4>ผลการสอบภาษาอังกฤษ  </h4>
+                        </div>
+
+                        <div class="col-xl-6 select-box ">
+                            <select class="selectpicker form-control" title="ผลการสอบภาษาอังกฤษ" data-show-subtext="true" data-live-search="true" name="sel1" id="sel1" width="100%"> 
+                                <option>TOEIC</option> 
+                                <option>TOEFL</option> 
+                                <option>IELTS</option> 
+                                <option>อื่นๆ</option> 
+                            </select> 
+                        </div>
+                        <div class="col-xl-6 col-12 mb-2 ">
+                            <fieldset class="formRow">
+                                <div class="formRow--item">
+                                    <label for="firstname" class="formRow--input-wrapper js-inputWrapper">
+                                        <input type="text" class="form-control formRow--input js-input" id="firstname"    placeholder="คะแนนสอบ">  
+                                    </label>  
+                                </div>
+                            </fieldset>
+                        </div>  
+
+
+ 
+                        <div class="clearfix mb-5">&nbsp;</div>
+
+                        <div class="col-12">
                             <h4>เอกสารประกอบการสมัครเรียน <span class="text-pink"> *กรุณาแนบหลักฐานเป็นรูปภาพหรือ PDF เท่านั้น</span> </h4>
                         </div>
 
@@ -218,6 +249,26 @@
                                         <tr>
                                             <td>4</td>
                                             <td>สำเนาวุฒิการศึกษา</td>
+                                            <td>
+                                                <a href="#" class="atrash">
+                                                    <i class="fas fa-cloud-upload"></i>
+                                                </a>
+                                            </td>
+                                            <td> </td> 
+                                            <td>
+                                                <a href="#" class="text-dark">
+                                                    <i class="fal fa-search"></i>
+                                                </a>
+                                            </td>
+                                            <td>
+                                                <a href="#" class="atrash">
+                                                    <i class="far fa-trash"></i>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>5</td>
+                                            <td>เอกสารผลสอบภาษาอังกฤษ</td>
                                             <td>
                                                 <a href="#" class="atrash">
                                                     <i class="fas fa-cloud-upload"></i>
@@ -318,17 +369,7 @@
             });
         });
 
-        $('select.selectpicker').on('change', function(){ 
-            $(".select-box").hide(); 
-            $("tbody").show(); 
-        });
-
-        
-        $(".atrash").on('click', function(event){ 
-            $("tbody").hide(); 
-            $(".select-box").show();  
-        });
-
+ 
 
     </script>
 
