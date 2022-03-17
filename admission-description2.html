@@ -108,7 +108,7 @@
                             
                         <div class="col p-4">
                             <h3 class="border-bottom pb-2">
-                                <strong>บัณฑิตวิทยาลัย หลักสูตร	 :สาขาภาษาอังกฤษ คณะศิลปศาสตร์ ปริญญาตรี (ไทย)</strong>    	
+                                <strong>บัณฑิตวิทยาลัย หลักสูตร	 :สาขาภาษาอังกฤษ คณะศิลปศาสตร์  </strong>    	
                             </h3>
                             <div class="row">
                                 <div class="col-12">
@@ -116,7 +116,7 @@
                                     <hr>
                                     <div class="form-group row mb-0">
                                         <label class="col-xl-2">หลักสูตร :</label>
-                                        <label class="col-xl-6">สาขาภาษาอังกฤษ คณะศิลปศาสตร์ ปริญญาตรี (ไทย)	</label>
+                                        <label class="col-xl-6">สาขาภาษาอังกฤษ คณะศิลปศาสตร์  	</label>
                                     </div>
                                     <div class="form-group row mb-0">
                                         <label class="col-xl-2">โครงการ :</label>
@@ -201,6 +201,12 @@
                                             <a href="#" class="text-pink"><i class="far fa-file-pdf"></i> doc_002.pdf </a>
                                         </label>
                                     </div> 
+                                    <div class="form-group row mb-0">
+                                        <label class="col-xl-2">เอกสารผลสอบภาษาอังกฤษ		 :</label>
+                                        <label class="col-xl-6">
+                                            <a href="#" class="text-pink"><i class="far fa-file-pdf"></i> doc_002.pdf </a>
+                                        </label>
+                                    </div> 
 
                                     <hr> 
 
@@ -208,7 +214,7 @@
                                         <div class="col-xl-2">&nbsp;</div> 
                                         <div class="col-xl-10">
                                             <button  class="btn btn-success mr-3" data-toggle="modal" data-target="#myModal2">
-                                                ยืนยันเอกสารถูกต้อง <i class="fas fa-check-circle"></i>
+                                                อนุมัติให้ผ่าน <i class="fas fa-check-circle"></i>
                                             </button>
                                             <button class="btn btn-danger" data-toggle="modal" data-target="#myModal">
                                                 เอกสารไม่ถูกต้อง 
@@ -232,21 +238,45 @@
         </div> 
 
         <div class="modal fade" id="myModal2">
-            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
                 <div class="modal-content">
                     <!-- Modal Header --> 
                     <!-- Modal body -->
+                    <div class="modal-header">
+                        <h4 class="modal-title text-success"><b>อนุมัติให้ผ่าน</b></h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
                     <div class="modal-body">
-                        <div class="col text-center pt-5">
-                            <h1><i class="fas fa-check-circle text-success"></i></h1>
-                            <h2 class="text-success">ยืนยันเอกสารถูกต้อง</h2>
-                            
+                        <div class="col pt-2"> 
+
+                            <div class="custom-control custom-checkbox">
+                                <input class="custom-control-input" type="checkbox" id="customCheckbox1" checked>
+                                <label for="customCheckbox1" class="custom-control-label">รูปถ่าย</label>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                                <input class="custom-control-input" type="checkbox" id="customCheckbox2" checked>
+                                <label for="customCheckbox2" class="custom-control-label">บัตรประชาชน </label>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                                <input class="custom-control-input" type="checkbox" id="customCheckbox3" checked>
+                                <label for="customCheckbox3" class="custom-control-label">สำเนาวุฒิการศึกษา </label>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                                <input class="custom-control-input" type="checkbox" id="customCheckbox4" checked>
+                                <label for="customCheckbox4" class="custom-control-label">เอกสารผลสอบภาษาอังกฤษ</label>
+                            </div>
+                            <div class="col">
+                                <h4>หมายเหตุ</h4>
+                                <div class="form-group">
+                                    <textarea name="" id="" cols="30" rows="6" class="form-control" placeholder="หมายเหตุ"></textarea>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <!-- Modal footer -->
                     <div class="modal-footer">
                         <div class="col text-center">
-                            <a href="admission-description1.html"  class="btn btn-success mr-3">ยืนยัน</a>
+                            <a href="admission-description1.html"  class="btn btn-success mr-3">อนุมัติให้ผ่าน</a>
                             <button  class="btn btn-outline-secondary" data-dismiss="modal">ยกเลิก</ิ>
                         </div>
                     </div>
@@ -264,6 +294,23 @@
                     </div>
                     <!-- Modal body -->
                     <div class="modal-body">
+                        <div class="custom-control custom-checkbox">
+                            <input class="custom-control-input" type="checkbox" id="customCheckboxx1" value="option1">
+                            <label for="customCheckboxx1" class="custom-control-label">รูปถ่าย</label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input class="custom-control-input" type="checkbox" id="customCheckboxx2" value="option1">
+                            <label for="customCheckboxx2" class="custom-control-label">บัตรประชาชน </label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input class="custom-control-input" type="checkbox" id="customCheckboxx3" value="option1">
+                            <label for="customCheckboxx3" class="custom-control-label">สำเนาวุฒิการศึกษา </label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input class="custom-control-input" type="checkbox" id="customCheckboxx4" value="option1">
+                            <label for="customCheckboxx4" class="custom-control-label">เอกสารผลสอบภาษาอังกฤษ</label>
+                        </div>
+
                         <div class="col">
                             <h4>หมายเหตุ</h4>
                             <div class="form-group">
