@@ -220,6 +220,7 @@ header nav .navbar-brand img{
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  z-index: 99 !important;
 }
 .formRow .form-control{
   height: 55px;
@@ -496,6 +497,14 @@ header nav .navbar-brand img{
   position: absolute;
   top: 50%;
 }
+
+.btn-light:not(:disabled):not(.disabled).active, .btn-light:not(:disabled):not(.disabled):active, .show>.btn-light.dropdown-toggle ,.btn-light.focus, .btn-light:focus{
+  background-color: #fff;
+} 
+.btn-light:hover{
+  background-color: #fff;
+}
+ 
 
 
 @media only screen and (max-width: 991px) { /* MOBILE */ 
