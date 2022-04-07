@@ -95,8 +95,10 @@
                     <div class="container-fluid">
                         <div class="row mb-2">
                             <div class="col-sm-6">
-                                <h1 class="m-0"> 
-                                    <strong>ข้อมูลผู้สมัคร :</strong> <span class="text-danger">รอชำระค่าใบสมัคร </span>
+                                <h1 class="m-0">
+                                    <strong>ข้อมูลผู้สมัคร :</strong> <span class="text-danger">รอชำระค่าใบสมัคร
+                                    </span>
+ 
                                 </h1> 
                             </div>  
                         </div> 
@@ -108,19 +110,35 @@
                             
                         <div class="col p-4">
                             <h3 class="border-bottom pb-2">
-                                <strong>บัณฑิตวิทยาลัย หลักสูตร	 :สาขาภาษาอังกฤษ คณะศิลปศาสตร์ </strong>    	
+                                <strong>บัณฑิตวิทยาลัย หลักสูตร	 :สาขาภาษาอังกฤษ คณะศิลปศาสตร์  </strong>    	
                             </h3>
                             <div class="row">
                                 <div class="col-12">
-                                    <h4 class="mt-3"><strong>ข้อมูลการสมัคร</strong></h4>
+                                    <h4 class="mt-3">
+                                        <strong>ข้อมูลการสมัคร</strong>
+                                        <button class="btn btn-info btn-sm pt-2" data-toggle="modal" data-target="#myModal6"> 
+                                            <i class="fa fa-pencil"></i> แก้ไข
+                                        </button>
+                                        <button class="btn btn-pink btn-sm pt-2" data-toggle="modal" data-target="#myModal7"> 
+                                            <i class="far fa-history"></i> ประวัติการแก้ไข
+                                        </button>
+                                    </h4>
                                     <hr>
                                     <div class="form-group row mb-0">
-                                        <label class="col-xl-2">หลักสูตร :</label>
-                                        <label class="col-xl-6">สาขาภาษาอังกฤษ คณะศิลปศาสตร์  </label>
+                                        <label class="col-xl-2">หลักสูตร :  </label> 
+                                        <label class="col-xl-6">ธุรกิจมหาบัณฑิต (Twilight MBA) </label> 
+                                    </div> 
+                                    <div class="form-group row mb-0">
+                                        <label class="col-xl-2">โครงการ :</label>   
+                                        <label class="col-xl-6">สมัครเรียนระดับบัณฑิตศึกษา </label> 
                                     </div>
                                     <div class="form-group row mb-0">
-                                        <label class="col-xl-2">โครงการ :</label>
-                                        <label class="col-xl-6">สมัครเรียนระดับบัณฑิตศึกษา	</label>
+                                        <label class="col-xl-2">ปีการศึกษา :  </label>  
+                                        <label class="col-xl-6">2565 </label> 
+                                    </div>
+                                    <div class="form-group row mb-0">
+                                        <label class="col-xl-2">ภาคการศึกษา  :</label> 
+                                        <label class="col-xl-6">S </label> 
                                     </div>
                                     <div class="form-group row mb-0">
                                         <label class="col-xl-2">วันที่สมัคร	 :</label>
@@ -128,7 +146,12 @@
                                     </div> 
                                 </div>
                                 <div class="col-6"> 
-                                    <h4 class="mt-3"><strong>ข้อมูลผู้สมัคร</strong></h4>
+                                    <h4 class="mt-3">
+                                        <strong>ข้อมูลผู้สมัคร</strong>
+                                        <button class="btn btn-info btn-sm pt-2" data-toggle="modal" data-target="#myModal4"> 
+                                            <i class="fa fa-pencil"></i> แก้ไข
+                                        </button>
+                                    </h4>
                                     <hr>
                                     <div class="form-group row mb-0">
                                         <label class="col-xl-4">ชื่อ-นามสกุล :</label>
@@ -156,7 +179,12 @@
                                     </div> 
                                 </div>
                                 <div class="col-6">  
-                                    <h4 class="mt-3"><strong>ข้อมูลการศึกษา</strong></h4>
+                                    <h4 class="mt-3">
+                                        <strong>ข้อมูลการศึกษา</strong> 
+                                        <button class="btn btn-info btn-sm pt-2" data-toggle="modal" data-target="#myModal5"> 
+                                            <i class="fa fa-pencil"></i> แก้ไข
+                                        </button>
+                                    </h4>
                                     <hr>
                                     <div class="form-group row mb-0">
                                         <label class="col-xl-4">โรงเรียน :</label>
@@ -186,33 +214,42 @@
                                     <div class="form-group row mb-0">
                                         <label class="col-xl-2">รูปถ่าย :</label>
                                         <label class="col-xl-6">
-                                            <a href="#" class="text-pink"><i class="far fa-image"></i> img_020325650.jpg </a>
-                                        </label>
+                                            <a href="#" class="text-pink"><i class="far fa-portrait"></i> IMG_001.jpg	 </a>
+                                            <i class="fal fa-check-circle fa-md text-success ml-3"></i>
+                                            <input type="file" name="theFile"/>
+                                        </label> 
                                     </div> 
                                     <div class="form-group row mb-0">
                                         <label class="col-xl-2">บัตรประชาชน :</label>
                                         <label class="col-xl-6">
                                             <a href="#" class="text-pink"><i class="far fa-file-pdf"></i> doc_001.pdf	 </a>
+                                            <i class="fal fa-check-circle fa-md text-success ml-3"></i>
+                                            <input type="file" name="theFile"/>
                                         </label>
                                     </div> 
                                     <div class="form-group row mb-0">
                                         <label class="col-xl-2">สำเนาวุฒิการศึกษา	 :</label>
                                         <label class="col-xl-6">
                                             <a href="#" class="text-pink"><i class="far fa-file-pdf"></i> doc_002.pdf </a>
+                                            <i class="fal fa-check-circle fa-md text-success ml-3"></i>
+                                            <input type="file" name="theFile"/>
+                                        </label>
+                                    </div> 
+                                    <div class="form-group row mb-0">
+                                        <label class="col-xl-2">เอกสารผลสอบภาษาอังกฤษ		 :</label>
+                                        <label class="col-xl-6">
+                                            <a href="#" class="text-pink"><i class="far fa-file-pdf"></i> doc_002.pdf </a>
+                                            <i class="fal fa-check-circle fa-md text-success ml-3"></i>
+                                            <input type="file" name="theFile"/>
                                         </label>
                                     </div> 
 
-                                    <!-- <hr> 
-
-                                    <div class="form-group row mb-0">
-                                        <label class="col-xl-2 text-danger">หมายเหตุ :</label>
-                                        <label class="col-xl-6">
-                                            <a href="#" class="text-danger"> รอแก้ไขเอกสาร </a>
-                                        </label>
-                                    </div>  -->
+                                    <hr> 
  
                                     
                                 </div> 
+
+
                             </div>      
                         </div>
                     </div> 
@@ -227,6 +264,53 @@
         </div> 
 
 
+        <div class="modal fade" id="myModal2">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <!-- Modal Header --> 
+                    <!-- Modal body -->
+                    <div class="modal-header">
+                        <h4 class="modal-title text-success"><b>อนุมัติให้ผ่าน</b></h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="col pt-2"> 
+
+                            <div class="custom-control custom-checkbox">
+                                <input class="custom-control-input" type="checkbox" id="customCheckbox1" checked>
+                                <label for="customCheckbox1" class="custom-control-label">รูปถ่าย</label>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                                <input class="custom-control-input" type="checkbox" id="customCheckbox2" checked>
+                                <label for="customCheckbox2" class="custom-control-label">บัตรประชาชน </label>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                                <input class="custom-control-input" type="checkbox" id="customCheckbox3" checked>
+                                <label for="customCheckbox3" class="custom-control-label">สำเนาวุฒิการศึกษา </label>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                                <input class="custom-control-input" type="checkbox" id="customCheckbox4" checked>
+                                <label for="customCheckbox4" class="custom-control-label">เอกสารผลสอบภาษาอังกฤษ</label>
+                            </div>
+                            <div class="col">
+                                <h4>หมายเหตุ</h4>
+                                <div class="form-group">
+                                    <textarea name="" id="" cols="30" rows="6" class="form-control" placeholder="หมายเหตุ"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <div class="col text-center">
+                            <a href="admission-description4.html"  class="btn btn-success mr-3">อนุมัติให้ผ่าน</a>
+                            <button  class="btn btn-outline-secondary" data-dismiss="modal">ยกเลิก</ิ>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="modal fade" id="myModal">
             <div class="modal-dialog modal-lg modal-dialog-centered">
                 <div class="modal-content">
@@ -237,6 +321,23 @@
                     </div>
                     <!-- Modal body -->
                     <div class="modal-body">
+                        <div class="custom-control custom-checkbox">
+                            <input class="custom-control-input" type="checkbox" id="customCheckboxx1" value="option1">
+                            <label for="customCheckboxx1" class="custom-control-label">รูปถ่าย</label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input class="custom-control-input" type="checkbox" id="customCheckboxx2" value="option1">
+                            <label for="customCheckboxx2" class="custom-control-label">บัตรประชาชน </label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input class="custom-control-input" type="checkbox" id="customCheckboxx3" value="option1">
+                            <label for="customCheckboxx3" class="custom-control-label">สำเนาวุฒิการศึกษา </label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input class="custom-control-input" type="checkbox" id="customCheckboxx4" value="option1">
+                            <label for="customCheckboxx4" class="custom-control-label">เอกสารผลสอบภาษาอังกฤษ</label>
+                        </div>
+
                         <div class="col">
                             <h4>หมายเหตุ</h4>
                             <div class="form-group">
@@ -245,15 +346,267 @@
                         </div>
                     </div>
                     <!-- Modal footer -->
+                    <div class="modal-footer"> 
+                        <div class="col text-center">
+                            <a href="admission-description4.html"  class="btn btn-danger mr-3">ยืนยันแจ้งแก้ไขเอกสาร</a>
+                            <button  class="btn btn-outline-secondary" data-dismiss="modal">ยกเลิก</ิ>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="myModal3">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title text-success"><b>สอบข้อเขียน</b></h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="col">
+                            <div class="row justify-content-center">
+                                <div class="col-8">
+                                    <h4>วันที่</h4>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <h4>เวลา</h4>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <h4>สถานที่</h4>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal footer -->
                     <div class="modal-footer">
                         <div class="col">
-                            <a href="admission-list.html"  class="btn btn-pink">ยืนยัน</a>
+                            <a href="admission-list.html"  class="btn btn-info mr-2">ยืนยัน</a>
+                            <button  class="btn btn-secondary" data-dismiss="modal">ยกเลิก</ิ>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+        <div class="modal fade" id="myModal4">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title text-info"><b>ข้อมูลผู้สมัคร </b></h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="col h5">
+                            <div class="row justify-content-center">
+                                <form class="col-10">
+                                    <div class="form-group row">
+                                        <label class="col-xl-3">ชื่อ-นามสกุล :</label>
+                                        <input type="text" class="form-control col-xl-5" value="อดิศร ศรีสุธรรม">
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-xl-3">วันเดือนปีเกิด :</label> 
+                                        <input type="text" class="form-control col-xl-5" value="29/11/2547">
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-xl-3">อายุ :</label> 
+                                        <input type="text" class="form-control col-xl-5" value="18">
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-xl-3">เพศ :</label> 
+                                        <input type="text" class="form-control col-xl-5" value="ชาย">
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-xl-3">อีเมล :</label> 
+                                        <input type="text" class="form-control col-xl-5" value="pimpae@hotmail.com">
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-xl-3">โทรศัพท์ :</label> 
+                                        <input type="text" class="form-control col-xl-5" value="098-939-3938">
+                                    </div> 
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <div class="col">
+                            <a href="admission-list.html"  class="btn btn-info mr-2">บันทึก</a>
                             <button  class="btn btn-secondary" data-dismiss="modal">ยกเลิก</ิ>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="modal fade" id="myModal5">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title text-info"><b>ข้อมูลการศึกษา </b></h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="col h5">
+                            <div class="row justify-content-center">
+                                <form class="col-10">
+                                    <div class="form-group row">
+                                        <label class="col-xl-3">โรงเรียน : </label>
+                                        <input type="text" class="form-control col-xl-5" value="โรงเรียนวัดบ้านดอน">
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-xl-3">ปีการศึกษาที่สำเร็จ :</label> 
+                                        <input type="text" class="form-control col-xl-5" value="29/11/2547">
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-xl-3">วุฒิการศึกษา :</label> 
+                                        <input type="text" class="form-control col-xl-5" value="18">
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-xl-3">เกรดเฉลี่ย :</label> 
+                                        <input type="text" class="form-control col-xl-5" value="ชาย">
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-xl-3">สาขา/แผนก/โปรแกรม :</label> 
+                                        <input type="text" class="form-control col-xl-5" value="pimpae@hotmail.com">
+                                    </div> 
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <div class="col">
+                            <a href="admission-list.html"  class="btn btn-info mr-2">บันทึก</a>
+                            <button  class="btn btn-secondary" data-dismiss="modal">ยกเลิก</ิ>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+
+        <div class="modal fade" id="myModal6">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title text-info"><b>ข้อมูลการสมัคร </b></h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="col h5">
+                            <div class="row justify-content-center">
+                                <form class="col-10">
+                                    <div class="form-group row">
+                                        <label class="col-xl-3">หลักสูตร  : </label>
+                                        <div class="col-xl-5">
+                                            <select class="selectpicker form-control " title="หลักสูตร " data-show-subtext="true" data-live-search="true" name="sel1" id="sel1" width="100%"> 
+                                                <option>ธุรกิจมหาบัณฑิต (Twilight MBA)</option>
+                                                <option selected>ธุรกิจมหาบัณฑิต (Twilight MBA)</option>
+                                                <option>ธุรกิจมหาบัณฑิต (Twilight MBA)</option>  
+                                            </select>  
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-xl-3">โครงการ  :</label> 
+                                        <div class="col-xl-5"> 
+                                            <select class="selectpicker form-control" title="โครงการ " data-show-subtext="true" data-live-search="true" name="sel1" id="sel1" width="100%"> 
+                                                <option>สมัครเรียนระดับบัณฑิตศึกษา</option>
+                                                <option selected>สมัครเรียนระดับบัณฑิตศึกษา</option>
+                                                <option>สมัครเรียนระดับบัณฑิตศึกษา</option>  
+                                            </select>    
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-xl-3">ปีการศึกษา :</label> 
+                                        <div class="col-xl-5"> 
+                                            <select class="selectpicker form-control" title="ปีการศึกษา " data-show-subtext="true" data-live-search="true" name="sel1" id="sel1" width="100%"> 
+                                                <option>2565</option>
+                                                <option selected>2565</option>
+                                                <option>2565</option>  
+                                            </select>   
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-xl-3">ภาคการศึกษา  :</label> 
+                                        <div class="col-xl-5"> 
+                                            <select class="selectpicker form-control" title="ภาคการศึกษา " data-show-subtext="true" data-live-search="true" name="sel1" id="sel1" width="100%"> 
+                                                <option>1</option>
+                                                <option selected>2</option>
+                                                <option>S</option>  
+                                            </select>    
+                                        </div>
+                                    </div> 
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <div class="col">
+                            <a href="admission-list.html"  class="btn btn-info mr-2">บันทึก</a>
+                            <button  class="btn btn-secondary" data-dismiss="modal">ยกเลิก</ิ>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal fade" id="myModal7">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title text-pink"><b>ประวัติการแก้ไข</b></h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="col h5">
+                            <div class="row justify-content-center">
+                                <form class="col-12">
+                                    <div class="form-group row">
+                                        <label class="col-xl-2">หลักสูตร  : </label>
+                                        <label class="col-xl-4"> นิติศาสตร์มหาบัณฑิต > <strong>ธุรกิจมหาบัณฑิต</strong>  </label>
+                                        <label class="col-xl-6">เจ้าหน้าที่แก้ไข 
+                                            <span class="text-danger">อดิศร ศรีสุธรรม</span>
+                                            <span class="text-danger pl-3">10:39 17/01/2565</span>
+                                        </label>
+                                    </div> 
+                                    <div class="form-group row">
+                                        <label class="col-xl-2">ภาคการศึกษา  : </label>
+                                        <label class="col-xl-4"> 1/2565 > <strong>S/2565</strong> </label>
+                                        <label class="col-xl-6">เจ้าหน้าที่แก้ไข 
+                                            <span class="text-danger">ตรีภพ แก้วสีทา</span>
+                                            <span class="text-danger pl-3">10:39 05/01/2565</span>
+                                        </label>
+                                    </div> 
+                                </form>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+
 
 
         <!-- jQuery -->
